@@ -2,6 +2,10 @@
 
 This C program is designed to compress a directory of PPM image files into a single compressed video file using the zlib compression library and multithreading with pthreads.
 
+## Setup
+Install zlib on a linux based OS:
+$ sudo apt install zlib1g
+
 ## Features
 
 - Compresses multiple PPM files in lexicographical order into a single "video.vzip" file
@@ -53,3 +57,7 @@ $ python vzipVisualizer.py video.vzip
 - The code is written for educational purposes and may not be optimized for production use.
 - The maximum number of threads and buffer nodes are limited to `MAX_THREADS` (19) and `MAX_NODES` (100), respectively.
 - The buffer size for reading and compression is fixed at `BUFFER_SIZE` (1 MB).
+
+# Results
+
+![image](https://github.com/rfeinberg3/VZIP_Multi-threaded/assets/95943957/00806382-54ca-4f33-a6c1-895c1b302714)
