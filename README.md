@@ -1,6 +1,6 @@
 # Video Compression with Pthreads
 
-This C program is designed to compress a directory of PPM image files into a single compressed video file using the zlib compression library and multithreading with pthreads. `serial.c` is where the main source code resides.
+This C program (a class project) is designed to compress a directory of PPM image files into a single compressed video file using the zlib compression library and multithreading with pthreads. `serial.c` is where the main source code resides.
 
 ## Setup
 Install zlib on a linux based OS:
